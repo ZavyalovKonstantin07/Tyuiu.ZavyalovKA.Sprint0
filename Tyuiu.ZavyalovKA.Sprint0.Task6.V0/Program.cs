@@ -1,0 +1,7 @@
+﻿// See https://aka.ms/new-console-template for more information
+using Tyuiu.ZavyalovKA.Sprint0.Task6.V0.Lib;
+int[] numsArray = new int[] { 1, 2, 3, 4, 5 };
+         Console.WriteLine("Сумма элементов массива = " + DataService.Additionary(numsArray));
+         Console.WriteLine("Разность элементов массива = " + DataService.SubtractionArray(numsArray));
+         Console.WriteLine("Произведение элементов массива = " + DataService.MultiplicationArray(numsArray));
+         Console.ReadKey();
